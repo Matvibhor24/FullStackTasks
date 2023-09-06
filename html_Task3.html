@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html_Task 3 - Hyperlinks</title>
+        <style>
+
+        .container {
+            border: 1px solid black;
+            padding: 5px;
+            background-color: rgb(233, 229, 229);
+            width: 95%;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul li a:before {
+            content: " | "; 
+            font-weight: bold;
+        }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+        
+        <p>Click Any of the Following Links</p>
+        
+        <ul>
+        
+            <li>
+        
+                <a href="https://www.google.com" target="_blank">Opens in New</a> 
+                <a href="https://www.google.com" target="_self">Opens in Self</a>
+                <a href="https://www.google.com" target="_parent">Opens in Parent</a>
+                <a href="https://www.google.com" target="_top">Opens in Full Body</a> 
+                <a href="mailto:someone@example.com">Send email</a>
+
+            </li>
+        
+        </ul>
+        
+        </div>
+        
+        </body>
+</html>
